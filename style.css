@@ -1,7 +1,8 @@
 body, p{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    width: 100%;
     font-family: sans-serif;
     font-size: 14px;
 }
@@ -28,7 +29,7 @@ nav img{
 }
 
 .wrapper {
-    min-height: calc(90vh - 50px);
+    min-height: calc(84vh - 25px);
 }
 
 main{
@@ -40,6 +41,7 @@ main{
 
 main img{
     height: 90px;
+    margin-bottom: 1em;
 }
 
 input{
@@ -62,16 +64,16 @@ input:hover{
 }
 
 .btn_container button:hover{
-    border: 1px solid rgb(179, 177, 177);
+    /* border: 1px solid rgb(179, 177, 177); */
+    box-shadow: 1px 1px 2px rgb(187, 187, 187);
 }
 
 span a{
     text-decoration: none;
-    color: rgb(122, 121, 121);
 }
 
 footer{
-    height: 45px;
+    height: 30px;
 }
 
 .footer_top{
